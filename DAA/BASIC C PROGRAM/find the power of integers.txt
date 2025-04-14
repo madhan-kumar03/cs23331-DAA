@@ -1,0 +1,30 @@
+Write a C program to find the power of integers.  
+
+input:
+
+a b
+
+output:
+
+a^b value
+
+For example:
+
+Input	Result
+2 5       32
+
+
+
+
+#include<stdio.h>
+int main(){
+    int a,b,s=1;
+    scanf("%d %d",&a,&b);
+    for(int i=0;i<b;i++){
+        s=s*a;
+    }
+    printf("%d",s);
+}
+
+
+

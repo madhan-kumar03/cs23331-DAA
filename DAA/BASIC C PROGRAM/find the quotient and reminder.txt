@@ -1,0 +1,23 @@
+Write a C program to find the quotient and reminder of given integers. 
+
+For example:
+
+Input	Result
+12       4
+3        0
+
+
+
+#include<stdio.h>
+int main(){
+    int a,b,q,r;
+    scanf("%d \n%d",&a,&b);
+    q=a/b;
+    r=a%b;
+    printf("%d\n%d",q,r);
+    
+}
+
+
+
+

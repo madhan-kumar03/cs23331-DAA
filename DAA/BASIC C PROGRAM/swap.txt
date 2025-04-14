@@ -1,0 +1,19 @@
+Given two numbers, write a C program to swap the given numbers.
+
+For example:
+
+Input	Result
+10       20
+20       10
+
+
+#include<stdio.h>
+int main(){
+    int a,b,temp;
+    scanf("%d %d",&a,&b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("%d %d",a,b);
+    return 0;
+}
